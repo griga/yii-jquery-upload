@@ -33,7 +33,7 @@
 				<td class="preview">
 					<img src="<?php echo $thumb ?>">
 				</td>
-				<td colspan="4" style="width: 100%;"></td>
+
 				<td>
 					<?php echo
 					CHtml::ajaxSubmitButton('Удалить',Yii::app()->createUrl('admin/image/erase'),
